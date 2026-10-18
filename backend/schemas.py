@@ -1,4 +1,4 @@
-"""Data models for normalized TRACE-X security events."""
+"""Data models for normalized Signalspin security events."""
 from datetime import datetime, timezone
 from typing import Optional
 from pydantic import BaseModel, Field, field_validator
