@@ -1,4 +1,4 @@
-"""TRACE-X HTTP API."""
+"""Signalspin HTTP API."""
 import csv
 import hashlib
 from pathlib import Path
@@ -7,7 +7,7 @@ from .analyzer import correlate_events
 from .schemas import AnalysisRequest, SecurityEvent
 
 app = FastAPI(
-    title="TRACE-X API",
+    title="Signalspin API",
     description="Evidence-linked security event correlation prototype.",
     version="0.1.0",
 )
@@ -25,7 +25,7 @@ def load_sample_events() -> list[SecurityEvent]:
 
 @app.get("/", tags=["status"])
 def root() -> dict:
-    return {"name": "TRACE-X API", "version": "0.1.0", "docs": "/docs"}
+    return {"name": "Signalspin API", "version": "0.1.0", "docs": "/docs"}
 
 
 @app.get("/health", tags=["status"])
