@@ -1,1 +1,1 @@
-"""TRACE-X backend package."""
+"""Signalspin backend package."""
