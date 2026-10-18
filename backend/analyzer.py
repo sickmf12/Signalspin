@@ -1,4 +1,4 @@
-"""Deterministic, explainable correlation logic for the TRACE-X prototype."""
+"""Deterministic, explainable correlation logic for the Signalspin prototype."""
 from __future__ import annotations
 from typing import Iterable
 from .schemas import SecurityEvent
