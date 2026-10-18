@@ -1,4 +1,4 @@
-# TRACE-X Architecture Notes
+# Signalspin Architecture Notes
 
 ## Goal
 Turn fragmented security telemetry into an ordered, reviewable set of event relationships. Each candidate relationship should be explainable using shared fields and a configurable time window.
