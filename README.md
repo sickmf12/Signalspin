@@ -1,7 +1,7 @@
-# TRACE-X
-### Digital Evidence Correlation & Attack Reconstruction
+# Signalspin
+### Evidence-Linked Incident Reconstruction
 
-TRACE-X is a prototype investigation workspace for connecting security events from authentication, endpoint, file-audit, and network logs into an evidence-linked incident timeline.
+Signalspin is a prototype investigation workspace for connecting security events from authentication, endpoint, file-audit, and network logs into an evidence-linked incident timeline.
 
 The initial version deliberately uses deterministic, inspectable rules. It is an analyst-assistance tool, not an autonomous incident-response system.
 
@@ -16,7 +16,7 @@ The initial version deliberately uses deterministic, inspectable rules. It is an
 
 ## Project structure
 ```text
-TRACE-X/
+Signalspin/
 ├── backend/
 │   ├── __init__.py
 │   ├── main.py
